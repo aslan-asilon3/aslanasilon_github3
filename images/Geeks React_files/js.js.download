@@ -1,0 +1,92 @@
+
+// Card Carousel 1
+var swiper = new Swiper(".mySwiper", {
+  slidesPerView: 4,
+  centeredSlides: false,
+  spaceBetween: 24,
+  loop: false,
+  pagination: {
+    el: ".swiper-pagination",
+    
+  },
+  navigation: {
+    nextEl: ".right-arrow",
+    prevEl: ".left-arrow",
+  },
+    breakpoints:{
+        0: {
+            slidesPerView: 1,
+        },
+        650: {
+            slidesPerView: 2,
+        },
+        990: {
+            slidesPerView: 3,
+        },
+        1100: {
+            slidesPerView: 4,
+        }
+    },
+});
+
+// Card Carousel 2
+
+var swiper = new Swiper(".mySwiper2", {
+  slidesPerView: 4,
+  centeredSlides: false,
+  spaceBetween: 24,
+  loop: false,
+  pagination: {
+    el: ".swiper-pagination2",
+    
+  },
+  navigation: {
+    nextEl: ".right-arrow2",
+    prevEl: ".left-arrow2",
+  },
+    breakpoints:{
+        0: {
+            slidesPerView: 1,
+        },
+        650: {
+            slidesPerView: 2,
+        },
+        990: {
+            slidesPerView: 3,
+        },
+        1100: {
+            slidesPerView: 4,
+        }
+    },
+});
+
+// Card Carousel 3
+
+var swiper = new Swiper(".mySwiper3", {
+  slidesPerView: 4,
+  centeredSlides: false,
+  spaceBetween: 24,
+  loop: false,
+  pagination: {
+    el: ".swiper-pagination3",
+    
+  },
+  navigation: {
+    nextEl: ".right-arrow3",
+    prevEl: ".left-arrow3",
+  },
+    breakpoints:{
+        0: {
+            slidesPerView: 1,
+        },
+        550: {
+            slidesPerView: 2,
+        },
+        990: {
+            slidesPerView: 3,
+        },
+        1100: {
+            slidesPerView: 4,
+        }
+    },
+});
